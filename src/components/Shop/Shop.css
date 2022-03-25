@@ -1,0 +1,33 @@
+.shop-component{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+.product-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 45px;
+    padding:15px;
+    margin: 100px 50px;
+}
+.cart-container{
+    background: rgba(255, 153, 0, 0.3);
+}
+.order-info{
+    padding-left: 23px;
+}
+.Order-summery{
+    text-align: center;
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+margin-top: 50px;
+margin-bottom: 40px;
+}
+.grand-total{
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 21px;
+margin-bottom: 40px;
+}
